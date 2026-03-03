@@ -266,7 +266,7 @@ urlgroups
   domain *.searxng.no-logs.com
   domain *.whoogle.no-logs.com
   domain *.librex.nohost.network
-  domain *.mydor.noip.me
+  domain *.timdor.noip.me
   domain *.null.media
   domain *.o5.gg
   domain *.offtheradar.info
@@ -357,8 +357,8 @@ urlgroups
   domain youtubei.googleapis.com
   domain youtube.googleapis.com
   domain www.youtube-nocookie.com
-  domain *.ymyg.com
-  domain ymyg.l.google.com
+  domain *.ytimg.com
+  domain ytimg.l.google.com
   domain youtube.l.google.com
   domain i.google.com
   domain googlevideo.com
@@ -375,38 +375,38 @@ urlgroups
   domain (?i)(^|[.-])(big|cyber|hard|huge|mega|small|soft|super|tiny)?(adult|babe|boob|breast|busen|busty|clit|cum|fetish|hooter|lez|lust|naked|nude|porn|porno|pupper|pussy|lesb|gay|lolit|salop|orgasm|mature|sex|smutpump|teen|tit|topp?les|xxx)s?([.-]|$)
   domain (?i)(^|[.-])[a-z0-9-]*(adult|boob|breast|busty|clit|cum|fetish|lust|naked|nude|porn|porno|pussy|orgasm|mature|sex|teen|tit|xxx)[a-z0-9-]*([.-]|$)
  facebook
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*facebook\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*messenger\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*fb\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*fb\.me$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*fbcdn\.net$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*fbsbx\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*tfbnw\.net$
+  domain (?i)^(?:[a-z0-9-]+\.)*facebook\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*messenger\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*fb\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*fb\.me$
+  domain (?i)^(?:[a-z0-9-]+\.)*fbcdn\.net$
+  domain (?i)^(?:[a-z0-9-]+\.)*fbsbx\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*tfbnw\.net$
  instagram
-  domain ^00:00:00:00:00:00-z00:00:00:00:00:00\/)?00:00:00:00:00:00-z0-9-]+\.)*00:00:00:00:00:00stagram\.com|cdninstagram\.com)00:00:00:00:00:00/:?#]|$)|^00:00:00:00:00:00-z00:00:00:00:00:00\/)?ig\.me00:00:00:00:00:00/:?#]|$)
+  domain ^(?:[a-z]+:\/\/)?(?:[a-z0-9-]+\.)*(?:instagram\.com|cdninstagram\.com)(?:[\/:?#]|$)|^(?:[a-z]+:\/\/)?ig\.me(?:[\/:?#]|$)
  whatsapp
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*whatsapp\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*whatsapp\.net$
+  domain (?i)^(?:[a-z0-9-]+\.)*whatsapp\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*whatsapp\.net$
   domain (?i)^whatsapp\.fbsbx\.com$
-  domain (?i)^00:00:00:00:00:00a-whatsapp-shv|whatsapp-cdn-shv)-[a-z0-9-]+\.fbcdn\.net$
+  domain (?i)^(?:fna-whatsapp-shv|whatsapp-cdn-shv)-[a-z0-9-]+\.fbcdn\.net$
   domain (?i)^whatsapp-chatd-edge-shv-[a-z0-9-]+\.facebook\.com$
  signal
-  domain ^00:00:00:00:00:00-z00:00:00:00:00:00\/)?00:00:00:00:00:00-z0-9-]+\.)*signal\.org00:00:00:00:00:00/:?#]|$)|^00:00:00:00:00:00-z00:00:00:00:00:00\/)?signal\.00:00:00:00:00:00t|group|link|me|tube)00:00:00:00:00:00/:?#]|$)
+  domain ^(?:[a-z]+:\/\/)?(?:[a-z0-9-]+\.)*signal\.org(?:[\/:?#]|$)|^(?:[a-z]+:\/\/)?signal\.(?:art|group|link|me|tube)(?:[\/:?#]|$)
  tiktok
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*tiktok\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*00:00:00:00:00:00ktokv\.com|tiktokcdn00:00:00:00:00:00s)?\.com)$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*00:00:00:00:00:00teoversea\.00:00:00:00:00:00m|net)|bytedance00:00:00:00:00:00i)?\.com|bytedance\.net)$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*00:00:00:00:00:00ssdk\.com|isnssdk\.com|sgsnssdk\.com|sgnssdk\.com|ctobsnssdk\.com)$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*00:00:00:00:00:00tatp\.com|ipstatp\.com|sgpstatp\.com)$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*00:00:00:00:00:00teimg\.com|ibyteimg\.com|bytecdn\.cn|ibytedtos\.com|byteicdn\.com|bytedns\.net|byted\.org)$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*00:00:00:00:00:00sical\.ly|muscdn\.com|amemv\.com)$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*00:00:00:00:00:00utiao\.com|toutiao50\.com|toutiaocdn\.00:00:00:00:00:00|com|net)|toutiaocloud\.00:00:00:00:00:00m|net)|ixigua\.com|ixiguavideo\.com|ixugua\.com|topbuzz\.com)$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*00:00:00:00:00:00pstarcdn\.com|ttlivecdn\.com|musemuse\.cn|douyin\.com|iesdouyin\.com|douyincdn\.com|douyinvideo\.net|douyinact\.com)$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*00:00:00:00:00:00cs3zlph\.com|zwtianshangm\.com|qfyf1toi\.com|mzfvozqybf\.com)$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*00:00:00:00:00:00p\.link|onelink\.me)$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*00:00:00:00:00:00tatp\.com|ipstatp\.com|sgpstatp\.com|snssdk\.com|isnssdk\.com|sgsnssdk\.com|sgnssdk\.com|ctobsnssdk\.com|byteoversea\.com|byteoversea\.net|tiktok\.com|tiktokv\.com|tiktokcdn00:00:00:00:00:00s)?\.com|musical\.ly|muscdn\.com|amemv\.com|hypstarcdn\.com|ibyteimg\.com|ibytedtos\.com|toutiao\.com|toutiao50\.com|ixigua\.com|ixiguavideo\.com|bytecdn\.cn|byteimg\.com|bytedance\.com|bytedanceapi\.com|xzcs3zlph\.com)00:00:00:00:00:00[a-z0-9-]+)*\.00:00:00:00:00:00nluncan\.com|kunlunca\.com|kunlunle\.com|kunlungr\.com|kunlunpi\.com|kunlunhuf\.com|kunlunsl\.com|alikunlun\.com|alikunlun\.net|bsgslb\.com|bsgslb\.cn|bdgslb\.com|cdngslb\.com|wsglb0\.com|wscdns\.com|wsdvs\.com|cloudglb\.com|cloudcdn\.net|worldfcdn\.com|bytetcdn\.com|ks-cdn\.com|ks-cdn1\.com|ksyuncdn\.com|cdnle\.com|cdntip\.com|dnsv1\.com|ovscdns\.net|baishan-cloud\.net|footprint\.net|myqcloud\.com|srip\.net|akadns\.net|akamaized\.net|akamaihd\.net|edgesuite\.net|edgekey\.net|bitgravity\.com|jcloudcdn\.com|gshifen\.com|wshifen\.com|googleusercontent\.com|amazonaws\.com|cloudfront\.net|fastly\.net|cloudflare\.net)$
+  domain (?i)^(?:[a-z0-9-]+\.)*tiktok\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*(?:tiktokv\.com|tiktokcdn(?:-us)?\.com)$
+  domain (?i)^(?:[a-z0-9-]+\.)*(?:byteoversea\.(?:com|net)|bytedance(?:api)?\.com|bytedance\.net)$
+  domain (?i)^(?:[a-z0-9-]+\.)*(?:snssdk\.com|isnssdk\.com|sgsnssdk\.com|sgnssdk\.com|ctobsnssdk\.com)$
+  domain (?i)^(?:[a-z0-9-]+\.)*(?:pstatp\.com|ipstatp\.com|sgpstatp\.com)$
+  domain (?i)^(?:[a-z0-9-]+\.)*(?:byteimg\.com|ibyteimg\.com|bytecdn\.cn|ibytedtos\.com|byteicdn\.com|bytedns\.net|byted\.org)$
+  domain (?i)^(?:[a-z0-9-]+\.)*(?:musical\.ly|muscdn\.com|amemv\.com)$
+  domain (?i)^(?:[a-z0-9-]+\.)*(?:toutiao\.com|toutiao50\.com|toutiaocdn\.(?:cn|com|net)|toutiaocloud\.(?:com|net)|ixigua\.com|ixiguavideo\.com|ixugua\.com|topbuzz\.com)$
+  domain (?i)^(?:[a-z0-9-]+\.)*(?:hypstarcdn\.com|ttlivecdn\.com|musemuse\.cn|douyin\.com|iesdouyin\.com|douyincdn\.com|douyinvideo\.net|douyinact\.com)$
+  domain (?i)^(?:[a-z0-9-]+\.)*(?:xzcs3zlph\.com|zwtianshangm\.com|qfyf1toi\.com|mzfvozqybf\.com)$
+  domain (?i)^(?:[a-z0-9-]+\.)*(?:app\.link|onelink\.me)$
+  domain (?i)^(?:[a-z0-9-]+\.)*(?:pstatp\.com|ipstatp\.com|sgpstatp\.com|snssdk\.com|isnssdk\.com|sgsnssdk\.com|sgnssdk\.com|ctobsnssdk\.com|byteoversea\.com|byteoversea\.net|tiktok\.com|tiktokv\.com|tiktokcdn(?:-us)?\.com|musical\.ly|muscdn\.com|amemv\.com|hypstarcdn\.com|ibyteimg\.com|ibytedtos\.com|toutiao\.com|toutiao50\.com|ixigua\.com|ixiguavideo\.com|bytecdn\.cn|byteimg\.com|bytedance\.com|bytedanceapi\.com|xzcs3zlph\.com)(?:\.[a-z0-9-]+)*\.(?:kunluncan\.com|kunlunca\.com|kunlunle\.com|kunlungr\.com|kunlunpi\.com|kunlunhuf\.com|kunlunsl\.com|alikunlun\.com|alikunlun\.net|bsgslb\.com|bsgslb\.cn|bdgslb\.com|cdngslb\.com|wsglb0\.com|wscdns\.com|wsdvs\.com|cloudglb\.com|cloudcdn\.net|worldfcdn\.com|bytetcdn\.com|ks-cdn\.com|ks-cdn1\.com|ksyuncdn\.com|cdnle\.com|cdntip\.com|dnsv1\.com|ovscdns\.net|baishan-cloud\.net|footprint\.net|myqcloud\.com|srip\.net|akadns\.net|akamaized\.net|akamaihd\.net|edgesuite\.net|edgekey\.net|bitgravity\.com|jcloudcdn\.com|gshifen\.com|wshifen\.com|googleusercontent\.com|amazonaws\.com|cloudfront\.net|fastly\.net|cloudflare\.net)$
  sharedmetainfra
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*00:00:00:00:00:00cebook\.net|facebookmail\.com|facebookbrand\.com|facebookvirtualassistant\.com|facebookdesktop\.com|thefacebook\.com|freebasics\.com|internet\.org|fbpigeon\.com|fburl\.com|fbcdn\.com)$
+  domain (?i)^(?:[a-z0-9-]+\.)*(?:facebook\.net|facebookmail\.com|facebookbrand\.com|facebookvirtualassistant\.com|facebookdesktop\.com|thefacebook\.com|freebasics\.com|internet\.org|fbpigeon\.com|fburl\.com|fbcdn\.com)$
  smarttv
   domain acr0.samsungcloudsolution.com
   domain ad.lgappstv.com
@@ -487,18 +487,18 @@ urlgroups
   domain vdterms.samsungcloudsolution.com
   domain yumenetworks.com
  adsstarterlist
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*doubleclick\.net$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*googlesyndication\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*googletagmanager\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*google-analytics\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*googletagservices\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*atdmt\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*scorecardresearch\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*adnxs\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*taboola\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*outbrain\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*criteo\.com$
-  domain (?i)^00:00:00:00:00:00-z0-9-]+\.)*rubiconproject\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*doubleclick\.net$
+  domain (?i)^(?:[a-z0-9-]+\.)*googlesyndication\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*googletagmanager\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*google-analytics\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*googletagservices\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*atdmt\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*scorecardresearch\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*adnxs\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*taboola\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*outbrain\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*criteo\.com$
+  domain (?i)^(?:[a-z0-9-]+\.)*rubiconproject\.com$
 
 timeconditions
  kid1
@@ -854,7 +854,7 @@ firewall
  drop-broadcasts WAN
  log-management-traffic true
  log-vpn-connections true
- undesired-traffic-policy DROP # Default iptables policy (Drop = fail-close; Accept= fail-open)
+ undesired-traffic-policy DROP
  geoblock
   zone RU
   zone CN
@@ -873,7 +873,7 @@ firewall
    match 82.26.190.206/32 # netutils.io
    match 176.113.191.108/32 # liteinfo-isp.com
    match 193.203.28.251/32 # liteinfo-isp.com
-   match 34.208.194.230/32 # This IP was reported 914 times. Confidence of Abuse is 1000:00:00:00:00:00tt00:00:00:00:00:00www.abuseipdb.com/check/34.208.194.230
+   match 34.208.194.230/32 # This IP was reported 914 times. Confidence of Abuse is 100%: https://www.abuseipdb.com/check/34.208.194.230
    match 46.203.118.194/32 # ukrtelecom.ua
    match 66.195.198.249/32 # lumen.com
    match 46.203.111.60 # ukrtelecom.ua
@@ -907,11 +907,11 @@ firewall
   rule direction out id 4008 inif ether2 src 192.168.88.2/32 proto UDP multi-dport 5353,5355,3478 state NEW action ACCEPT # ---- Zenarmor CTI servers ----
  portforwards
   rule id 5000 inif ether2 src 192.168.1.1/24 dst 10.10.0.105/32 proto TCP sport 53 multi-dport 53,853 state NEW action RETURN disabled # Dummy rule for config expression
-  rule id 5001 inif ether2 src 192.168.1.0/24 dst 192.168.1.1/24 proto TCP dport 8291 state NEW action DNAT dnat-to 192.168.8800:00:00:00:00:0091 # WinBox
-  rule id 5002 inif ether1 src 10.10.0.0/24 proto TCP multi-dport 80,443 state NEW action DNAT dnat-to 192.168.100:00:00:00:00:004 hammer-protect true hammer-hits 10 hammer-time 10 # # ---- Allow VPN management ----
-  rule id 5003 inif ether1 src 192.168.88.0/24 proto TCP multi-dport 80,443 state NEW action DNAT dnat-to 192.168.100:00:00:00:00:004 hammer-protect true hammer-hits 10 hammer-time 10 # # ---- Allow VPN management ----
+  rule id 5001 inif ether2 src 192.168.1.0/24 dst 192.168.1.1/24 proto TCP dport 8291 state NEW action DNAT dnat-to 192.168.88.1:8291 # WinBox
+  rule id 5002 inif ether1 src 10.10.0.0/24 proto TCP multi-dport 80,443 state NEW action DNAT dnat-to 192.168.1.1:254 hammer-protect true hammer-hits 10 hammer-time 10 # # ---- Allow VPN management ----
+  rule id 5003 inif ether1 src 192.168.88.0/24 proto TCP multi-dport 80,443 state NEW action DNAT dnat-to 192.168.1.1:254 hammer-protect true hammer-hits 10 hammer-time 10 # # ---- Allow VPN management ----
   rule id 5004 inif ether1 proto UDP multi-dport 51820,51821 state NEW action DNAT dnat-to 192.168.1.1 hammer-protect true hammer-hits 10 hammer-time 10 # # ---- Allow VPN management ----
-  rule id 5005 inif ether1 proto UDP multi-dport 51821 state NEW action DNAT dnat-to 192.168.100:00:00:00:00:00821 hammer-protect true hammer-hits 10 hammer-time 10 # # ---- Allow VPN management ----
+  rule id 5005 inif ether1 proto UDP multi-dport 51821 state NEW action DNAT dnat-to 192.168.1.1:51821 hammer-protect true hammer-hits 10 hammer-time 10 # # ---- Allow VPN management ----
  vlan
   restrict ether2.10 ether2.20
   restrict ether2.10 ether2.30
@@ -1076,34 +1076,34 @@ traffic-shaping
    rate 5mbps
    ceil 112mbps
  rules
-  rule id 10 type ip inif ether2 proto TCP dport 443 multi-sport 50000:00:00:00:00:00019 policy myworkdevices download-queue dl-01-high upload-queue up-01-high
-  rule id 11 type ip inif ether2 proto UDP multi-sport 50000:00:00:00:00:00019 multi-dport 3400:00:00:00:00:0081 policy myworkdevices download-queue dl-01-high upload-queue up-01-high
+  rule id 10 type ip inif ether2 proto TCP dport 443 multi-sport 50000:50019 policy timworkdevices download-queue dl-01-high upload-queue up-01-high
+  rule id 11 type ip inif ether2 proto UDP multi-sport 50000:50019 multi-dport 3478:3481 policy timworkdevices download-queue dl-01-high upload-queue up-01-high
   rule id 12 type urlgroup qosvoip download-queue dl-02-realtime upload-queue ul-02-realtime
   rule id 13 type urlgroup qosvoip download-queue dl-02-realtime upload-queue ul-02-realtime
-  rule id 14 type ip policy myworkdevices download-queue dl-01-high upload-queue up-01-high
-  rule id 15 type ip policy kid4 download-queue dl-99-kid-control upload-queue ul-99-kid-control
-  rule id 17 type ip policy kid1 download-queue dl-99-kid-control upload-queue ul-99-kid-control
+  rule id 14 type ip policy timworkdevices download-queue dl-01-high upload-queue up-01-high
+  rule id 15 type ip policy hasina download-queue dl-99-kid-control upload-queue ul-99-kid-control
+  rule id 17 type ip policy aniqah download-queue dl-99-kid-control upload-queue ul-99-kid-control
   rule id 18 type ip policy tv download-queue dl-08-bulk upload-queue ul-08-bulk
   rule id 19 type blacklist video download-queue default-download-queue upload-queue default-upload-queue
-  rule id 20 type ip inif ether2 proto TCP dport 443 multi-sport 50000:00:00:00:00:00039 policy myworkdevices download-queue dl-02-realtime upload-queue ul-02-realtime
-  rule id 40 type ip inif ether2 proto UDP multi-sport 50000:00:00:00:00:00039 multi-dport 3400:00:00:00:00:0081 policy myworkdevices download-queue dl-02-realtime upload-queue ul-02-realtime
-  rule id 41 type ip proto TCP multi-dport 21100:00:00:00:00:00119 download-queue dl-01-high upload-queue up-01-high
-  rule id 42 type ip proto UDP multi-dport 21100:00:00:00:00:00119 download-queue dl-01-high upload-queue up-01-high
-  rule id 43 type ip proto UDP multi-dport 3400:00:00:00:00:0081,5349 download-queue dl-01-high upload-queue up-01-high
-  rule id 44 type ip proto UDP multi-dport 53,123,51800:00:00:00:00:00821 download-queue dl-01-high upload-queue up-01-high
+  rule id 20 type ip inif ether2 proto TCP dport 443 multi-sport 50020:50039 policy timworkdevices download-queue dl-02-realtime upload-queue ul-02-realtime
+  rule id 40 type ip inif ether2 proto UDP multi-sport 50020:50039 multi-dport 3478:3481 policy timworkdevices download-queue dl-02-realtime upload-queue ul-02-realtime
+  rule id 41 type ip proto TCP multi-dport 21115:21119 download-queue dl-01-high upload-queue up-01-high
+  rule id 42 type ip proto UDP multi-dport 21115:21119 download-queue dl-01-high upload-queue up-01-high
+  rule id 43 type ip proto UDP multi-dport 3478:3481,5349 download-queue dl-01-high upload-queue up-01-high
+  rule id 44 type ip proto UDP multi-dport 53,123,51820:51821 download-queue dl-01-high upload-queue up-01-high
   rule id 50 type ip proto TCP multi-dport 22,53,3389,8291 download-queue dl-01-high upload-queue up-01-high
-  rule id 51 type ip proto TCP multi-dport 51413,6800:00:00:00:00:0089 download-queue dl-08-bulk upload-queue ul-08-bulk
-  rule id 52 type ip proto UDP multi-dport 51413,6800:00:00:00:00:0089 download-queue dl-08-bulk upload-queue ul-08-bulk
+  rule id 51 type ip proto TCP multi-dport 51413,6881:6889 download-queue dl-08-bulk upload-queue ul-08-bulk
+  rule id 52 type ip proto UDP multi-dport 51413,6881:6889 download-queue dl-08-bulk upload-queue ul-08-bulk
   rule id 53 type ip proto TCP multi-dport 80,443 download-queue dl-05-normal upload-queue up-05-normal
   rule id 54 type ip inif ether1 proto TCP dport 8080 download-queue dl-08-bulk upload-queue ul-08-bulk
  voip-rules
   rule id 10 type ip proto UDP multi-dport 5060,5061 
   rule id 20 type ip proto UDP multi-sport 5060,5061 
-  rule id 30 type ip proto TCP dport 443 multi-sport 50000:00:00:00:00:00019 
-  rule id 31 type ip proto TCP dport 443 multi-sport 50000:00:00:00:00:00039 
-  rule id 32 type ip proto UDP multi-sport 50000:00:00:00:00:00019 multi-dport 3400:00:00:00:00:0081 
-  rule id 33 type ip proto UDP multi-sport 50000:00:00:00:00:00019 multi-dport 3400:00:00:00:00:0081 
-  rule id 34 type ip proto UDP multi-dport 3400:00:00:00:00:0081,5349 
+  rule id 30 type ip proto TCP dport 443 multi-sport 50000:50019 
+  rule id 31 type ip proto TCP dport 443 multi-sport 50020:50039 
+  rule id 32 type ip proto UDP multi-sport 50000:50019 multi-dport 3478:3481 
+  rule id 33 type ip proto UDP multi-sport 50000:50019 multi-dport 3478:3481 
+  rule id 34 type ip proto UDP multi-dport 3478:3481,5349
 
 remote-management
  webui-restrict-trusted-sources true
