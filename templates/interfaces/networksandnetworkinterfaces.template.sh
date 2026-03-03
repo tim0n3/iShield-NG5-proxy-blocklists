@@ -1,5 +1,4 @@
-# Networks & Network Interfaces
-! Configuration
+config
 
 ip interface ether2 vlan 10
  description home
