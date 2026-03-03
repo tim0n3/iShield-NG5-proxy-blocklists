@@ -1,4 +1,91 @@
 config
-  blacklists
-   social-media
-    include whatsapp.com
+blacklists
+ microsoft-cloud
+  include teams.cloud.microsoft
+  include lync.com
+ video
+  include real-debrid.com
+  include baby-beamup.club
+  include strem.fun
+  include strem.io
+  include v3-cinemeta.strem.io
+  include api.strem.io
+ tencent-cloud
+  include myqcloud.com
+ apple-cloud
+  include swcdn.apple.com
+  include apple.com
+  include updates.cdn-apple.com
+  include cdn-apple.com
+ ai
+  include ai-hay.vn
+  include andisearch.com
+  include anthropic.com
+  include aoyo.ai
+  include app.holmesbot.com
+  include ayesoul.com
+  include bolt.new
+  include botsonic.com
+  include character.ai
+  include chatgpt.com
+  include claude.ai
+  include colomboai.com
+  include compute.hyper.space
+  include consensus.app
+  include copilot.microsoft.com
+  include copy.ai
+  include correkt.ai
+  include deepfind.co
+  include deepseek.com
+  include devv.ai
+  include doubao.com
+  include duck.ai
+  include fal.ai
+  include felo.ai
+  include gemini.google.com
+  include genspark.ai
+  include getliner.com
+  include ghibliai.ai
+  include hellomiku.com
+  include hika.fyi
+  include huggingface.co
+  include iask.ai
+  include ithy.com
+  include jasper.ai
+  include khanmigo.ai
+  include kimi.ai
+  include komo.ai
+  include llama.com
+  include lmarena.ai
+  include lumigo.ai
+  include lumo.proton.me
+  include metaso.cn
+  include miromind.ai
+  include mistral.ai
+  include mixmyai.com
+  include monica.so
+  include msty.app
+  include omnexio.ai
+  include openai.com
+  include perplexity.ai
+  include phind.com
+  include pi.ai
+  include poe.com
+  include qwen.ai
+  include so.360.com
+  include stellar.chatastra.ai
+  include suno.ai
+  include suno.com
+  include t3.chat
+  include textcortex.com
+  include thegigabrain.com
+  include thinkany.ai
+  include tiangong.cn
+  include typeset.io
+  include uncovr.app
+  include venice.ai
+  include writesonic.com
+  include xdash.ai
+  include you.com
+  include yuewen.cn
+  include z.ai
